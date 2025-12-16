@@ -260,6 +260,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .h-auto {
     height: auto;
   }
@@ -277,6 +280,12 @@
   }
   .w-10 {
     width: calc(var(--spacing) * 10);
+  }
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
   .w-24 {
     width: calc(var(--spacing) * 24);
@@ -357,6 +366,9 @@
   }
   .bg-\[\#EFECEA\] {
     background-color: #EFECEA;
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .object-contain {
     object-fit: contain;
@@ -526,6 +538,13 @@
     &:hover {
       @media (hover: hover) {
         opacity: 70%;
+      }
+    }
+  }
+  .hover\:opacity-80 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 80%;
       }
     }
   }
@@ -746,11 +765,6 @@
       line-height: var(--leading-relaxed);
     }
   }
-  .lg\:mx-auto {
-    @media (width >= 64rem) {
-      margin-inline: auto;
-    }
-  }
   .lg\:mt-12 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 12);
@@ -819,11 +833,6 @@
   .lg\:w-full {
     @media (width >= 64rem) {
       width: 100%;
-    }
-  }
-  .lg\:max-w-6xl {
-    @media (width >= 64rem) {
-      max-width: var(--container-6xl);
     }
   }
   .lg\:max-w-378 {
@@ -976,11 +985,6 @@
   .xl\:hidden {
     @media (width >= 80rem) {
       display: none;
-    }
-  }
-  .xl\:pb-\[1300px\] {
-    @media (width >= 80rem) {
-      padding-bottom: 1300px;
     }
   }
   .xl\:pb-\[1500px\] {
