@@ -402,12 +402,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
-  }
-  .px-40 {
-    padding-inline: calc(var(--spacing) * 40);
-  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -431,6 +425,21 @@
   }
   .pb-64 {
     padding-bottom: calc(var(--spacing) * 64);
+  }
+  .pb-\[300px\] {
+    padding-bottom: 300px;
+  }
+  .pb-\[500px\] {
+    padding-bottom: 500px;
+  }
+  .pb-\[900px\] {
+    padding-bottom: 900px;
+  }
+  .pb-\[1000px\] {
+    padding-bottom: 1000px;
+  }
+  .pb-\[1500px\] {
+    padding-bottom: 1500px;
   }
   .pl-15 {
     padding-left: calc(var(--spacing) * 15);
@@ -555,6 +564,16 @@
       @media (hover: hover) {
         opacity: 70%;
       }
+    }
+  }
+  .sm\:pb-\[1\] {
+    @media (width >= 40rem) {
+      padding-bottom: 1;
+    }
+  }
+  .sm\:pb-\[1500px\] {
+    @media (width >= 40rem) {
+      padding-bottom: 1500px;
     }
   }
   .md\:top-40 {
@@ -921,34 +940,34 @@
       padding-right: calc(var(--spacing) * 0);
     }
   }
-  .lg\:pb-40 {
-    @media (width >= 64rem) {
-      padding-bottom: calc(var(--spacing) * 40);
-    }
-  }
-  .lg\:pb-96 {
-    @media (width >= 64rem) {
-      padding-bottom: calc(var(--spacing) * 96);
-    }
-  }
-  .lg\:pb-\[1\] {
-    @media (width >= 64rem) {
-      padding-bottom: 1;
-    }
-  }
   .lg\:pb-\[100px\] {
     @media (width >= 64rem) {
       padding-bottom: 100px;
     }
   }
-  .lg\:pb-\[400px\] {
-    @media (width >= 64rem) {
-      padding-bottom: 400px;
-    }
-  }
   .lg\:pb-\[900px\] {
     @media (width >= 64rem) {
       padding-bottom: 900px;
+    }
+  }
+  .lg\:pb-\[1200px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 1200px;
+    }
+  }
+  .lg\:pb-\[1300px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 1300px;
+    }
+  }
+  .lg\:pb-\[1400px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 1400px;
+    }
+  }
+  .lg\:pb-\[1500px\] {
+    @media (width >= 64rem) {
+      padding-bottom: 1500px;
     }
   }
   .lg\:pl-32 {
