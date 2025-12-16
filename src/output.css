@@ -983,6 +983,11 @@
       padding-bottom: 1300px;
     }
   }
+  .xl\:pb-\[1500px\] {
+    @media (width >= 80rem) {
+      padding-bottom: 1500px;
+    }
+  }
 }
 @property --tw-scale-x {
   syntax: "*";
