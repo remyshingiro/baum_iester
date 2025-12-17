@@ -3,6 +3,28 @@
     "@tailwindcss/cli": "^4.1.18"
   },
   "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18"
-  }
+  },
+  "name": "baum_iester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remyshingiro/baum_iester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/remyshingiro/baum_iester/issues"
+  },
+  "homepage": "https://github.com/remyshingiro/baum_iester#readme"
 }
