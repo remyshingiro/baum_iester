@@ -4,6 +4,7 @@
 @layer theme {
   :root, :host {
     --font-sans: "Outfit", sans-serif;
+    --font-sans: "Outfit", sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-green-700: oklch(52.7% 0.154 150.069);
