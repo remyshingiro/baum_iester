@@ -1,64 +1,41 @@
- <div class="relative w-full bg-[#EFECEA] text-green-700 pt-40 pb-10 px-6 md:px-12 md:pb-32">
-            
-            <div class="flex justify-center mb-12 md:mb-28">
-                <img src="src/public/Vector 13.png" class="w-3/4 max-w-70 md:max-w-none md:w-87.5 object-contain" alt="Red shape">
-            </div>
+<div class="relative w-full bg-[#EFECEA] text-green-700 pt-40 pb-10 px-6 md:px-12 md:pb-32">
+    
+    <div class="hidden md:block mb-12 md:mb-28">
+    <div class="flex justify-center ">
+        <img src="src/public/Vector 13.png" class="w-3/4 max-w-70 md:max-w-none md:w-87.5 object-contain" alt="Red shape">
+    </div>
+    </div>
 
-            <!-- Mobile Layout -->
-            <div class="flex flex-col gap-y-20 md:hidden text-sm leading-snug font-medium">
-                <div class="flex flex-col gap-y-20">
-                    <div class="shrink-0">
-                        <p>Agentur Baumeister</p>
-                        <p>Böckhstraße 13</p>
-                        <p>10967 Berlin</p>
-                    </div>
-                    <div>
-                        <a href="mailto:hallo@agentur-baumeister.com" class="underline decoration-1 underline-offset-2 hover:opacity-70 break-all">
-                            hallo@agentur-baumeister.com
-                        </a>
-                        <p class="mt-1 whitespace-nowrap">+49 (0)30 - 490 827 87</p>
-                    </div>
-                </div>
-
-                <div class="flex justify-between items-center">
-                    <p>Datenschutz</p>
-                    <p>Impressum</p>
-                    <p>LinkedIn</p>
-                    <p>Instagram</p>
-                </div>
-           </div>
-            <!-- Tablet & Desktop Layout -->
-    <div class="hidden md:grid md:grid-cols-12 md:gap-x-4 lg:gap-y-4 xl:gap-y-0 md:items-start text-sm md:text-base leading-snug font-medium">
-
-        <div class="md:col-span-3 lg:col-span-3 xl:col-span-3 flex flex-col">
+    <div class="flex flex-col gap-y-20 md:grid md:grid-cols-12 md:gap-x-4 lg:gap-y-4 xl:gap-y-0 md:items-start text-sm md:text-base leading-snug font-medium">
+        
+        <div class="shrink-0 md:col-span-3 lg:col-span-3 xl:col-span-3 flex flex-col">
             <p>Agentur Baumeister</p>
             <p>Böckhstraße 13</p>
             <p>10967 Berlin</p>
         </div>
 
-      <div class="md:col-span-4 lg:col-span-8 xl:col-span-4 flex flex-col xl:text-left text-right">
-        <a href="mailto:hallo@agentur-baumeister.com" class="underline decoration-1 underline-offset-2 hover:opacity-70 whitespace-nowrap">
-            hallo@agentur-baumeister.com
-        </a>
-        <p class="mt-1">+49 (0)30 - 490 827 87</p>
-      </div>
+        <div class="md:col-span-4 lg:col-span-8 xl:col-span-4 flex flex-col md:text-right xl:text-left">
+            <a href="mailto:hallo@agentur-baumeister.com" class="underline decoration-1 underline-offset-2 hover:opacity-70 break-all md:whitespace-nowrap">
+                hallo@agentur-baumeister.com
+            </a>
+            <p class="mt-1 whitespace-nowrap">+49 (0)30 - 490 827 87</p>
+        </div>
 
-      <div class="md:col-span-2 lg:col-span-4 xl:col-span-2 flex flex-col">
-        <p>LinkedIn</p>
-      </div>
-
-        <div class="md:col-span-2 lg:col-span-3 xl:col-span-2">
-        <p>Instagram</p>
-       </div>
-
-       <div class="md:col-span-1 lg:col-span-2 xl:col-span-1">
-        <p>Impressum</p>
-        <a  href="privacypolicy.html" class="xl:block lg:hidden md:block">Datenschutz</a>
-       </div>
-    
-      <div class="md:col-span-1 lg:col-span-1 xl:hidden">
-        <a href="privacypolicy.html">Datenschutz</a>
-       </div>
-    </div>
+        <div class="flex justify-between items-center md:contents">
+            <p class="md:hidden">Datenschutz</p>
+            <p class="md:hidden">Impressum</p>
+            
+            <p class="md:col-span-2 lg:col-span-4 xl:col-span-2">LinkedIn</p>
+            <p class="md:col-span-2 lg:col-span-3 xl:col-span-2">Instagram</p>
+            
+            <div class="hidden md:block md:col-span-1 lg:col-span-2 xl:col-span-1">
+                <p>Impressum</p>
+                <a href="privacypolicy.html" class="xl:block lg:hidden md:block">Datenschutz</a>
+            </div>
+            
+            <div class="hidden md:block md:col-span-1 lg:col-span-1 xl:hidden">
+                <a href="privacypolicy.html">Datenschutz</a>
+            </div>
+        </div>
     </div>
 </div>
